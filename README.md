@@ -16,7 +16,9 @@ Project structure:
 2.	The main project folder "TournamentBracketGenerator" contains:
    
     a.	The project file (.csproj)
+  	
     b.	Program.cs (contains the Main method)
+  	
     c.	Subfolders for organizing code:
   	
         i.	Interfaces: Contains all interface definitions.
