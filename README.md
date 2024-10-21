@@ -14,13 +14,14 @@ Project structure:
 
 1.	The solution file (.sln) is at the root.
 2.	The main project folder "TournamentBracketGenerator" contains:
+   
     a.	The project file (.csproj)
     b.	Program.cs (contains the Main method)
     c.	Subfolders for organizing code:
   	
         i.	Interfaces: Contains all interface definitions.
         ii.	Models: Contains the concrete implementations of ITeam, IMatch, and IGroup.
-        iii.Services: Contains the concrete implementations of other interfaces and main logic classes.
+        iii. Services: Contains the concrete implementations of other interfaces and main logic classes.
         iv.	Data: Contains the JSON files for team data.
   	
 4.	A separate project for unit tests (TournamentBracketGenerator.Tests)
